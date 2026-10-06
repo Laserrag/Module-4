@@ -16,3 +16,23 @@ for key, value in student_data.items():
         
 for key, value in result.items():
     print(f"ID: {key}, Name: {value['name']}, Age: {value['age']}, Major: {value['major']}")
+
+# Assignment 2
+test_dict = {
+    "Codingl" : 2,
+    "Is" : 2, 
+    "Best" : 2,
+    "for" : 2,
+    "Coding ": 2
+}
+
+print("The original dictionary is :" + str(test_dict))
+k = 2
+result = 0
+
+
+for key in test_dict:
+    if test_dict[key] == k:
+        result += 1
+
+print("The number of keys having the value " + str(k) + " is : " + str(result))
