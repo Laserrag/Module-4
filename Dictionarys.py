@@ -36,3 +36,13 @@ for key in test_dict:
         result += 1
 
 print("The number of keys having the value " + str(k) + " is : " + str(result))
+
+#assignment 3
+country_code = {
+    "USA": 1,
+    "Canada": 2,
+    "Mexico": 3
+}
+
+print("The country codes for USA::")
+print(country_code.get("USA", "Country not found"))
