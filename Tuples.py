@@ -18,3 +18,5 @@ print(len(tuplex1))
 #Assignment 2
 
 test = (1 , 2, 3, 4, 5)
+for t in test:
+    print("The value is ", t)
