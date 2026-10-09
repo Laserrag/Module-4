@@ -25,3 +25,5 @@ print(fruit_count)
 
 marks = {10,20,20,30,40,50,20,90,60,50,70,80,90,100}
 print("Marks:", marks)
+list_marks = list(marks)
+print("List of Marks:", list_marks)
