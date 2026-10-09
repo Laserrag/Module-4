@@ -23,3 +23,5 @@ print(fruit_count)
 
 # Assignment 2
 
+marks = {10,20,20,30,40,50,20,90,60,50,70,80,90,100}
+print("Marks:", marks)
