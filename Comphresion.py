@@ -14,3 +14,7 @@ if chosen_item in inventory and inventory[chosen_item] > 0:
     print(f"{chosen_item} is in the inventory.")
 else:
     print(f"{chosen_item} is not in the inventory.")
+
+
+mark_up_prices = map(lambda x: x * 1.2, stock_counts)
+print("Mark-up prices:", mark_up_prices)
