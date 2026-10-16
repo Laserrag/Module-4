@@ -24,3 +24,5 @@ except KeyError:
     input("Invalid input. Please enter a valid student name.")
 else: 
     print("Thank you for using the student marks program.")
+finally:
+    print("Program execution completed.")
